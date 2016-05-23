@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Angular Application</title>
 </head>
-<body>
+<body ng-app="app">
+  <div ng-controller="MainController">
+    <h1>{{ name }}</h1>
+    <h2>{{ email }}</h2>
+    <h3>{{ phone }}</h3>
+  </div>
 
     <script src="js/angular.js"></script>
     <script src="js/app/app.js"></script>
